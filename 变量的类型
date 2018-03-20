@@ -2,14 +2,14 @@
 <head>
 <title>变量的类型</title>
 <script>
-var  a=true;
-var  b=function(){};
-var  c;
-var  d=12;
-var  e=null
-var  f={}
-var  g=''
-var  h='22'  
+var  a=true;  //boolean
+var  b=function(){}; //function
+var  c;//undefined
+var  d=12;//number
+var  e=null;  //object
+var  f={}; //object
+var  g='';//string
+var  h=new Date().getDay();  //number
 
 console.log(typeof  a);
 console.log(typeof  b);
@@ -18,7 +18,7 @@ console.log(typeof  d);
 console.log(typeof  e);
 console.log(typeof  f);
 console.log(typeof  g);
-console.log(typeof  h);
+console.log(h);
 </script>
 
 </head>
